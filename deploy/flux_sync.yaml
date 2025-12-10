@@ -6,10 +6,10 @@ metadata:
   namespace: fluxcd-play
 spec:
   interval: 30s
-  path: ./deploy
+  path: ./deploy/nginxapp
   prune: true
   wait: true
   sourceRef:
     kind: GitRepository
-    name: k8s_nginxapp_sot
+    name: k8snginxappsot
 
